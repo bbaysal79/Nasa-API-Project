@@ -5,7 +5,7 @@ This project is a Server-Client communication and Socket-Programming project tha
 
 The project is a network application project that performs network connection between client-server-NASA APIs. The application firstly starts to run with server side of the project. After server is up and running, clients can connect to the server. Server can connect multiple clients at the same time which is called multi-threading. After client/s connect to the server, they need to identify themselves entering username and password. Username-password list provided in a text file named “users” with the project. Sample username-password list:
 
-![image](https://user-images.githubusercontent.com/37505916/142761428-e5db825b-7263-42b0-9c3f-fdc499094642.png)
+![image](https://user-images.githubusercontent.com/37505916/142764296-b41b0655-10fb-4ee4-ab53-5e4d78038a88.png)
 
 Username could be provided by the command line arguments. But if command line arguments are not provided then client will be asked for their username. If username entered by the user does not exist in the list, connection will be aborted by the server. If username does exist, then password will be required. If client gives a wrong password, server asks client to provide a password 2 more times, after all attempts if still password is wrong, then connection will be aborted by the server again. There is no time-out for providing the username or password etc. In the case client provides both username and password correctly, the connection will be refreshed by the server by providing new socket port to the client. Previous connection is closed by server.
 
