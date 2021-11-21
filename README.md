@@ -1,6 +1,8 @@
 # Nasa-API-Project
 This project is a Server-Client communication and Socket-Programming project that uses Nasa API's for receiving Astronomy Pictures and Mars Weather data.
 
+**** Note: First run the Server.java, then run the Client.java, For API key generation, visit NASA API website: https://api.nasa.gov/ ****
+
 The project is a network application project that performs network connection between client-server-NASA APIs. The application firstly starts to run with server side of the project. After server is up and running, clients can connect to the server. Server can connect multiple clients at the same time which is called multi-threading. After client/s connect to the server, they need to identify themselves entering username and password. Username-password list provided in a text file named “users” with the project. Sample username-password list:
 
 ![image](https://user-images.githubusercontent.com/37505916/142761428-e5db825b-7263-42b0-9c3f-fdc499094642.png)
