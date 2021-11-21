@@ -49,6 +49,6 @@ The design and implementation of this project is not perfect due to time concern
 
 Sample run for the application is below.
 
-![image](https://user-images.githubusercontent.com/37505916/142761681-7dae5cdd-d8d0-4736-b489-ae89fa154cd1.png)
+![image](https://user-images.githubusercontent.com/37505916/142763345-c1181af8-cd62-4135-bb29-1e7f1acf2cd1.png)
 
-![image](https://user-images.githubusercontent.com/37505916/142761684-bbd04dc7-e245-4df3-a4eb-758d5486bd83.png)
+![image](https://user-images.githubusercontent.com/37505916/142763394-dcb8b2df-c56a-467f-8ad8-55cd142eda5a.png)
