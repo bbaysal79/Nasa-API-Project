@@ -1,7 +1,7 @@
 /*
  * COMP416 - Project1: StratoNet: NASA-API based Network Application
  * Server Side
- * Hüseyin Burak Baysal - 61319
+ * HÃ¼seyin Burak Baysal - 61319
  */
 
 import java.io.BufferedReader;
@@ -27,7 +27,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class ServerThread extends Thread {
-	public static final String API_KEY = "Jn7LOL2jcfX8WxhwWLiLwuKbzpefwyqe9p9dGxnf";
+	public static final String API_KEY = "add API key here";
 	public static final String APOD_URL = "https://api.nasa.gov/planetary/apod?api_key=";
 	public static final String INSIGHT_URL = "https://api.nasa.gov/insight_weather/?api_key=";
 	private static Scanner x;
